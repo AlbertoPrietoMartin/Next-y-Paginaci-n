@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div>
       <h1>Hello worlcito!</h1>
-      <Link href="/laotra">Si pinchas aquí te lleva a la otra</Link>
+      <Link href="/laotra">Si pinchas aquí o en la almendra del bicho te lleva a la otra</Link>
       <p
         onClick={()=>{
           router.push("/laotra");
@@ -18,7 +18,7 @@ const Home = () => {
       >
       </p>
       <img
-        src="/rowlet.jpeg"
+        src="/rowlet.png"
         onClick={()=>{
           router.push("/laotra");
         }}

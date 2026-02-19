@@ -1,15 +1,27 @@
-
-html,
-body {
-  max-width: 100vw;
+/* Aplica a toda la página */
+html, body {
+  height: 100%;
+  margin: 0;
 }
+
+/* Fondo estilo llanura */
+body {
+  background-color: #d4f1c5; /* Verde clarito tipo pradera */
+  display: flex;             /* Para centrar contenido si quieres */
+  justify-content: center;   /* Centrado horizontal */
+  align-items: center;       /* Centrado vertical */
+  font-family: Arial, sans-serif; /* Opcional: fuente limpia */
+}
+
 
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+body {
+  display: flex;           
+  justify-content: center;  
+  align-items: center;      
+  height: 100vh;             
+  margin: 0;                
 }

@@ -2,18 +2,28 @@
 'use client';
 
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 const LaOtra = () => {
     const router = useRouter();
 
     return (
         <div>
-            <h1>Esto es la otra pagina</h1>
+            <Link href="../">Pa atras</Link>
             <p onClick={()=>{
                 router.back();
-            }}>pa atras</p>
+            }}></p>
+            
         </div>
+        
     );
+
+
+
 };
+
+
+
+
 
 export default LaOtra;

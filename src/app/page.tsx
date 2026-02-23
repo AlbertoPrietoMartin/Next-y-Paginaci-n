@@ -9,6 +9,7 @@ const Home = () => {
   
   return (
     <div>
+      <Link href="/laotra/27">La otra 27</Link>
       <h1>Hello worlcito!</h1>
       <Link href="/laotra">Si pinchas aquí o en la almendra del bicho te lleva a la otra</Link>
       <p
